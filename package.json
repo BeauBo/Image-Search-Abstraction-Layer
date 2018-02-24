@@ -1,0 +1,19 @@
+{
+  "name": "Image-Search-Abstraction-Layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6",
+    "node-bing-api": "^3.2.2",
+    "qwant-api": "^0.3.0"
+  }
+}

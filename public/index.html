@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./client.js"></script>
+  </head>
+  <body>
+    <div class="container ">
+      <h1>Image Search Abstraction Layer</h1>
+
+        <input id="searchVal" type="text"  placeholder="Seach Images..." required/>
+        <input id="count" type="number"  placeholder="Number of results to show..." required/>
+        <input id="offset" type="number"  placeholder="Starting index..." required/>
+        <a id="getImage" class="btn btn-primary" href="" target="_blank" >Get Image</a>
+
+        <a id="getLatest" class="btn btn-success" href="" target="_blank">Latest Search</a>
+        <button id="clear" class="btn btn-danger"type="button">Clear</button>
+    </div>
+  </body>
+</html>

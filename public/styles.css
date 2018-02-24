@@ -1,0 +1,37 @@
+body{
+  background: #fafafa;
+}
+
+.container{
+text-align: center;
+}
+h1{
+  margin: 8% 0 4% 0;
+}
+
+input{
+  display: table;
+  padding: 8px 10px;
+  width: 40%;
+  margin: 1% auto;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  outline: none;
+  color: #bdbdbd;
+}
+::placeholder{
+  color: #bdbdbd;
+  font-size: .9em;
+  font-family: Arial;
+}
+#getImage, #getLatest{
+  display: table;
+  width: 25%;
+  margin: 2% auto;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+#clear{
+  width: 25%;
+  padding: 10px 10px;
+}
