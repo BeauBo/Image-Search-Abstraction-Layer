@@ -8,7 +8,10 @@ $(document).ready(function(){
       var href = "/api/imagesearch/" + searchVal + "?count=" + count + "&offset=" + offset;
       $(this).attr("href",href);
     }else{
-      alert("All fields are required!")
+      alert("All fields are required!");
+      $("#searchVal").val("");
+      $("#count").val("")
+      $("#offset").val ("");
     }
   });
 
